@@ -26,10 +26,10 @@
     flex-direction: column;
     display: flex;
     flex-direction: column;
-    width: 100%;          /* Full width within its container */
-    max-width: 500px;     /* Maximum width of the form */
-    margin: 0 auto;       /* Center the form horizontally */
-    height: auto;         /* Allows the form height to adjust based on content */
+    width: 100%;          
+    max-width: 500px;     
+    margin: 0 auto;      
+    height: auto;        
     padding: 10px;
     box-sizing: border-box;
     max-height: 500px;
