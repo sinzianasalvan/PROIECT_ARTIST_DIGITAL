@@ -24,7 +24,7 @@
 
 .flex-container {
   display: flex; 
-  gap: 20px; /* Spațiu între elemente, ajustează după preferințe */
+  gap: 20px;
   padding: 20px;
 }
 
