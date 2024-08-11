@@ -1,0 +1,55 @@
+.portfolio {
+  padding: 10px;
+  background-color: aliceblue;
+}
+.wrap {
+  display: flex;
+    gap: 40px;
+  flex-wrap: wrap;
+}
+.work {
+  flex:1;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.work-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.flex-container {
+  display: flex; 
+  gap: 20px; /* Spațiu între elemente, ajustează după preferințe */
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

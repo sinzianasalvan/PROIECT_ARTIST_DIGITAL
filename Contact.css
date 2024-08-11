@@ -1,0 +1,83 @@
+.Contact {
+    max-height: 500px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Contact h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Contact p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    
+}
+
+.Contact-form {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;          /* Full width within its container */
+    max-width: 500px;     /* Maximum width of the form */
+    margin: 0 auto;       /* Center the form horizontally */
+    height: auto;         /* Allows the form height to adjust based on content */
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 500px;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    max-height: 400px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    max-height: 400px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

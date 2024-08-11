@@ -1,0 +1,16 @@
+.About {
+    padding: 150px;
+    background-color: aliceblue;
+}
+.Me {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Me-photo {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px;
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 10px;
+}
