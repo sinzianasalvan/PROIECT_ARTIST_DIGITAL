@@ -8,9 +8,9 @@
 }
 
 .Me-photo {
-    width: 250px; /* Adjust the size as needed */
+    width: 250px; 
     height: 250px;
-    border-radius: 50%; /* This makes the image circular */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%;
+    object-fit: cover; 
     margin-bottom: 10px;
 }
